@@ -1,0 +1,31 @@
+{
+  "name": "composi-uuid",
+  "description": "Creates a valid uuid",
+  "version": "1.0.0",
+  "module": "src/index.js",
+  "license": "MIT",
+  "files": [
+    "src"
+  ],
+  "author": "Robert Biggs",
+  "keywords": [
+    "composi",
+    "frontend",
+    "uuid"
+  ],
+  "scripts": {
+    "test": "jest --coverage --no-cache"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.1",
+    "@babel/preset-env": "^7.0.0",
+    "babel-jest": "^23.6.0",
+    "jest": "^23.6.0",
+    "regenerator-runtime": "^0.12.1"
+  }
+}
